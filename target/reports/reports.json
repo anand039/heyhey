@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.heyhey.stepDefinition.UserSignupTestSteps.user_enter_his_details_to_create_account(UserSignupTestSteps.java:50)\r\n\tat ✽.user enter his details to create account(file:///C:/Users/India/eclipse-workspace/f22labs/src/test/resources/features/heyheySignup.feature:4)\r\n",
+              "duration": 4987900,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user enter his details to create account",
+            "match": {
+              "location": "com.heyhey.stepDefinition.UserSignupTestSteps.user_enter_his_details_to_create_account()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-24T15:56:28.000Z",
+        "before": [
+          {
+            "result": {
+              "duration": 722601800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.heyhey.stepDefinition.UserSignupTestSteps.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "\t\tCreate a user account",
+        "id": "heyhey-apis;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1991800,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user submit the request to create account",
+            "match": {
+              "location": "com.heyhey.stepDefinition.UserSignupTestSteps.user_submit_the_request_to_create_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1995900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Account is created successfully",
+            "match": {
+              "location": "com.heyhey.stepDefinition.UserSignupTestSteps.account_is_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HeyHey Apis",
+    "description": "",
+    "id": "heyhey-apis",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/heyheySignup.feature",
+    "tags": []
+  }
+]

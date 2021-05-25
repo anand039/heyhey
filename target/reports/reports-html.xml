@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.457">
+    <testcase classname="HeyHey Apis" name="_2" time="1.017">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given user enter his details to create account..............................failed
+When user submit the request to create account..............................skipped
+Then Account is created successfully........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.heyhey.stepDefinition.UserSignupTestSteps.user_enter_his_details_to_create_account(UserSignupTestSteps.java:50)
+	at ✽.user enter his details to create account(file:///C:/Users/India/eclipse-workspace/f22labs/src/test/resources/features/heyheySignup.feature:4)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
